@@ -103,7 +103,7 @@ void PushToSorted (LinkedList** head_ref, int new_data) {
     new_node->next = d;
 }
 
-/* Runs insertion*/
+/* Runs insertion sort */
 void insertion(LinkedList** nums) {
 
     LinkedList* c = *nums;
